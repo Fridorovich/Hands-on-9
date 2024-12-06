@@ -3,7 +3,7 @@
 
 1. **Install dependencies**:
 - Install dependencies using pip:
-```bash
+``bash
      pip install -r requirements.txt
      ```
 

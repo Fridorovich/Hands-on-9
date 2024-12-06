@@ -1,9 +1,9 @@
-# Hands-on-9
+# Hands-on-9 (event-driven system)
 ## Installation and launch
 
 1. **Install dependencies**:
 - Install dependencies using pip:
-``bash
+```bash
      pip install -r requirements.txt
      ```
 

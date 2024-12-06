@@ -1,4 +1,37 @@
 # Hands-on-9 (event-driven system)
+
+## Description
+
+The system consists of four services:
+1. REST API server for receiving messages from users.
+2. Filter is a service for filtering messages by stop words.
+3. SCREAMING service for converting text to uppercase.
+4. Publish service for sending emails.
+
+## Project structure
+
+project/
+│
+├── app/
+│ ├── init.py
+│ └── app.py
+│
+├── filter_service/
+│ ├── init.py
+│ └── filter_service.py
+│
+├── screaming_service/
+│ ├── init.py
+│ └── screaming_service.py
+│
+├── publish_service/
+│ ├── init.py
+│ └── publish_service.py
+│
+├── .env
+├── requirements.txt
+└── README.md
+
 ## Installation and launch
 
 1. **Install dependencies**:

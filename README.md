@@ -10,6 +10,7 @@ The system consists of four services:
 
 ## Project structure
 
+```
 project/
 │
 ├── app/
@@ -31,6 +32,7 @@ project/
 ├── .env
 ├── requirements.txt
 └── README.md
+```
 
 ## Installation and launch
 

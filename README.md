@@ -3,9 +3,9 @@
 
 1. **Install dependencies**:
 - Install dependencies using pip:
-``bash
-     pip install -r requirements.txt
-     ```
+```bash
+pip install -r requirements.txt
+```
 
 2. **Configure the `.env` file**:
 - Create a `.env` file in the root directory of the project and add environment variables to it:
@@ -42,7 +42,7 @@
    - You can check it through the RabbitMQ web interface at `http://localhost:15672 `.
 
 2. **Check the recipient's email**:
-- Open the email `recipient_email `.
+- Open the email `recipient_email`.
    - Find a new email with the subject "New Message".
    - Check the text of the letter:
      ```
@@ -50,16 +50,17 @@
      Message: HELLO, WORLD!
      ```
 
-## Load testing
+## Event-driven system
 
-#### A system based on channels and filters
+In this variant, each service operates independently and interacts via RabbitMQ.
+
+#### Advantages:
+- Scalability and fault tolerance.
+
+- Simplified processing of asynchronous events.
 
 
+#### Disadvantages:
+- A more complex architecture.
 
-#### An event-driven system using RabbitMQ
-
-
-
-### Conclusion
-
-The event-driven system using RabbitMQ showed higher performance compared to the channel-based and filter-based system. It provided faster request processing, lower resource consumption and higher throughput. This makes it more suitable for scalable and fault-tolerant systems.
+- Possible delays in message processing.
